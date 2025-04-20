@@ -252,4 +252,33 @@ h3 {
   color: #006646;
 }
 
+label {
+  float: left;
+  display: block;
+  text-align: right;
+  width: 125px;
+  padding-right: 2em;
+}
 
+/* 2. Input and textarea styling */
+input, textarea {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* 3. Submit button styling */
+input[type="submit"] {
+  margin-left: 135px;
+}
+
+/* 4. Mobile responsiveness */
+@media screen and (max-width: 37.5em) {
+  label {
+    float: none;
+    text-align: left;
+  }
+
+  input[type="submit"] {
+    margin-left: 0;
+  }
+}
